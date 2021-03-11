@@ -79,34 +79,36 @@
         </ul>
         <a href="https://www.youtube.com/watch?v=Z9CMjtNytaA" target="_blank">Haz click acá para el video</a>
         <p>Por favor, contesta esta breve encuesta</p>
-        <label for="nombre">Nombre: </label>
-        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre">
-        <br><br>
-        <label for="email">Email: </label>
-        <input type="email" id="email" name="email" placeholder="Ingrese su Email">
-        <br><br>
-        <input type="radio" id="si" name="enviar" value="si">
-        <label for="si">Sí, por favor envíame montones de correos</label>
-        <br>
-        <input type="radio" id="no" name="enviar" value="no">
-        <label for="no">No por favor, no me mandes ningún correo</label>
-        <br><br>
-        <p>¿Cómo supiste de nosotros?</p>
-        <label for="red_social">Redes Sociales</label>
-        <input type="checkbox" id="red_social" name="redSocial">
-        <select name="redSocial" id="redsocial">
-            <option value="instagram">Instagram</option>
-            <option value="facebook">Facebook</option>
-            <option value="whatsapp">Whatsapp</option>
-        </select>
-        <br>
-        <label for="periodico">El Periódico</label>
-        <input type="checkbox" id="periodico" name="periodico">
-        <br>
-        <label for="contacto">Un contacto</label>
-        <input type="checkbox" id="contacto" name="contacto">
-        <br><br>
-        <input type="submit" value="Enviar">
+        <form action="process.php" method="POST">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre">
+            <br><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="Ingrese su Email">
+            <br><br>
+            <input type="radio" id="si" name="enviar" value="si">
+            <label for="si">Sí, por favor envíame montones de correos</label>
+            <br>
+            <input type="radio" id="no" name="enviar" value="no">
+            <label for="no">No por favor, no me mandes ningún correo</label>
+            <br><br>
+            <p>¿Cómo supiste de nosotros?</p>
+            <label for="red_social">Redes Sociales</label>
+            <input type="checkbox" id="red_social" name="redSocial">
+            <select name="redSocial" id="redsocial">
+                <option value="instagram">Instagram</option>
+                <option value="facebook">Facebook</option>
+                <option value="whatsapp">Whatsapp</option>
+            </select>
+            <br>
+            <label for="periodico">El Periódico</label>
+            <input type="checkbox" id="periodico" name="periodico">
+            <br>
+            <label for="contacto">Un contacto</label>
+            <input type="checkbox" id="contacto" name="contacto">
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
     </div>    
 </body>
 </html>
