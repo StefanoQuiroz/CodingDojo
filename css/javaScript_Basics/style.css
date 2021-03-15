@@ -41,11 +41,7 @@ body{
     color: white
 }
 
-.aside ul li a:link{
-    color: #21c6db;
-}
-
-.aside ul li a:visited{
+.aside ul li a:link, .aside ul li a:visited{
     color: #21c6db;
 }
 
