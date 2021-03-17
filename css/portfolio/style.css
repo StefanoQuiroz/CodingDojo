@@ -1,0 +1,186 @@
+
+/* Begin head */
+.container{
+    padding: 20px;
+}
+
+.container .head{
+    width: 100%;
+    background-color: #F8F8F8;
+    position: relative;
+}
+
+.container .head h1{
+    margin: 0;
+    padding: 20px 0px 20px 25px;;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: cursive;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+.container .head p{
+    margin: 0;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 35px;
+    right: 5px;
+}
+
+/* end head */
+
+/* Begin main-content */
+/* Begin Menu */
+.main-content{
+    width: 94%;
+    background: linear-gradient(to right, #1D0D11 , #6F5964, #1D0D11);
+    padding: 4% 4% 2% 4%;
+}
+
+.main-content .menu{
+    height: 350px;
+    margin-bottom: 50px;
+}
+
+.main-content .menu img{
+    height:100%;
+    border: 6px solid #bfbebf;
+    margin-right: 20px;
+}
+
+.main-content .menu .about{
+    display: inline-block;
+    width: 55.7%;
+    vertical-align: top;
+    height: 362px;
+    background: linear-gradient(to right, white , #6F5964);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-content .menu .about h2{
+    margin: 0;
+    padding: 15px;
+    color: white;
+    background: linear-gradient(180deg, darkgray, gray, darkgray);
+}
+
+.main-content .menu .about p{
+    padding: 15px 20px;
+}
+
+.main-content .menu .about a{
+    display: block;
+    color: black;
+    padding: 15px 20px;;
+
+}
+/* end menu */
+
+/* Begin book*/
+
+.book{
+    /* outline: 1px solid red; */
+    width: 1330px;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.book .message{
+    display: inline-block;
+    width: 30%;
+    outline: 1px dotted green;
+    vertical-align: top;
+    /* margin-left: 30px; */
+    padding-bottom: 15px;
+    height: 100%;
+    background: linear-gradient(to right, white , #6F5964);
+}
+
+.book #message1{
+    margin-right: 42px;
+}
+
+.book #message2{
+    margin-right: 42px;;
+
+}
+
+
+.book .message h2, .book .message h3{
+    margin: 0;
+    padding: 15px;
+    background: linear-gradient(180deg, darkgray, gray, darkgray);
+    color: white;
+}
+
+.book .message img{
+    width: 100%;
+}
+
+.book .message p{
+    padding: 10px;
+    text-align: justify;
+    height: 130px;
+    margin: 0;
+}
+
+.book .message .technologies{
+    /* outline: 1px dotted red; */
+    height: 150px;
+    padding: 15px;
+}
+
+.book .message .technologies img{
+    width: 65px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.book .message a{
+    display: block;
+    width: 180px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color:#407D61;
+    border-radius: 15px;
+    padding: 15px 15px;
+    margin: 0 auto;    
+}
+
+/* end menu */
+
+/* begin footer */
+
+.footer{
+    width: 100%;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer .media{
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer .media img{
+    width: 25px;
+    vertical-align: middle;
+}
+
+.footer .media a{
+    display: inline-block;
+    font-style: italic;
+    color: black;
+    font-size: 20px;
+    margin: 0px 10px;
+}
