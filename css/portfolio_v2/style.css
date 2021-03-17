@@ -1,0 +1,176 @@
+*{
+    font-size: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Begin header */
+#container{
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #F8F8F8;
+    margin-top: 15px;
+}
+
+#header h1{
+    display: inline-block;
+    width: 680px;
+    margin: 0 15px 0 15px;
+    padding: 15px;
+    font-family: cursive;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+#header p{
+    display: inline-block;
+    width: 650px;
+    text-align: right;
+    vertical-align: top;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+/*  End header */
+
+/* Begin main-content */
+
+#main-content{
+    background: linear-gradient(to right, #1D0D11 , #6F5964, #1D0D11);
+    padding: 25px;
+}
+
+#main-content #about{
+    margin-bottom: 30px;
+}
+
+#main-content #about img{
+    width: 500px;
+    border: 5px solid silver;
+    margin-right: 20px;
+}
+
+#main-content #about div{
+    display: inline-block;
+    width: 700px;
+    vertical-align: top;
+    min-height: 338.938px;
+    min-width: 816px;
+    background: linear-gradient(to right, white , #6F5964);
+}
+
+#main-content #about div h2{
+    background: linear-gradient(180deg, darkgray, gray, darkgray);
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
+
+#main-content #about div p{
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;;
+    font-size: 20px;
+}
+
+#main-content #about div a{
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+}
+
+#main-content #projects .project{
+    display: inline-block;
+    width: 420px;
+    vertical-align: top;
+    height: 710px;
+    background: linear-gradient(to right, white , #6F5964);
+}
+
+#main-content #projects .project:not(#project3){
+    margin-right: 41px;
+}
+
+#main-content #projects .project h3, #main-content #projects .project h4{
+    background: linear-gradient(180deg, darkgray, gray, darkgray);
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
+
+#main-content #projects .project img{
+    width:420px;
+}
+
+#main-content #projects .project p{
+    height: 130px;
+    margin-top: -5px;
+    margin-bottom: 0;
+    padding: 12px;
+    text-align: justify;
+}
+
+#main-content #projects .project ul{
+    padding: 5px 10px;
+}
+
+#main-content #projects .project ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#main-content #projects .project ul li img{
+    width: 65px;
+}
+
+#main-content #projects .project button{
+    display: block;
+    margin: 0 auto;
+    background-color: #407D61;
+    color:white;
+    width: 130px;
+    padding: 5px 0;
+    border-radius: 10px;
+    box-shadow: slategray;
+}
+/* End main-content */
+
+/* Begin footer */
+#footer{
+    background-color: #f6f6f6;
+    padding-bottom: 1px;
+}
+/* End footer */
+
+#footer p{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+
+}
+
+#footer ul{
+    text-align: center;
+    padding: 0px;
+}
+
+#footer ul li{
+    display: inline-block;
+}
+
+#footer ul li img{
+    width: 25px;
+}
+
+#footer ul li a{
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 10px;
+    color: black;
+    font-style: italic;
+}
+
+/* End footer */
+
+
+
