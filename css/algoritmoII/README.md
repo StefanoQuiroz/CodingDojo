@@ -1,2 +1,2 @@
-#Ejercicios de Algoritmo II
+# Ejercicios de Algoritmo II
 Parte 2 en el archivo script.js
