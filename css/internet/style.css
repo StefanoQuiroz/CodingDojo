@@ -1,0 +1,144 @@
+*{
+    /* outline: 1px dotted red; */
+    font-family:'Arial Narrow Bold';
+}
+
+#container{
+    width: 970px;
+    margin: 0 auto;
+    background-color: #e6e6e6;
+    overflow: hidden;
+}
+
+#header{
+    padding-top: 4px;
+}
+
+#header img{
+    width: 90px;
+    margin-left: 15px;
+}
+
+#header h1{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+#header h1 span{
+    color: #22659e;
+}
+
+#header h3{
+    margin-bottom: 0;
+    margin-top: -20px;
+    padding: 10px 30px;
+    background-color:#5082ac;
+    color: #e8eff4;
+    font-size: 30px;
+}
+
+#main{
+    background-color: #fff;
+}
+
+#main #aside{
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+}
+
+#main #aside #aside-content{
+    background: linear-gradient(0deg, #fff, #e6e6e6);
+    padding: 20px 5px;
+    border-bottom: 3px solid #c7c7c7;
+}
+
+#main #aside #aside-content h4{
+    margin: 0;
+    text-align: left;
+    font-weight: bolder;
+}
+
+#main #aside #aside-content h4 span{
+    color: #d92b25;
+}
+
+#main #aside #aside-content p{
+    font-size: 14px;
+    font-weight: bolder;;
+}
+
+#main #aside #aside-content span{
+    color: #2e6da3;
+}
+
+#main #aside #aside-content button{
+    display: block;
+    margin: 0 auto;
+    padding: 5px 0px;
+    width: 180px;
+    border-radius: 3px;
+    color:#fff;
+    border-color: #a5a09b;
+    box-shadow: 2px 2px 2px #a5a09b;
+}
+
+#main #aside #aside-content #button-1{
+    background-color:#4480b1;
+}
+
+#main #aside #aside-content #button-2{
+    background-color:#ef7d00;
+    margin-top: 5px;
+}
+
+#main #aside #aside-image{
+    background-color: #fff;
+    padding: 25px 0px;
+
+}
+
+#main #aside #aside-image h4{
+    text-align: center;
+    font-size: 22px;
+    padding: 0px 15px;
+    color: #fff;
+    position: relative;
+    top: -20px;
+    z-index: 1000;
+}
+
+#main #aside #aside-image img{
+    display:block;
+    width: 100%;
+    margin-top: -135px;
+    box-shadow: 2px 2px 2px #898a8a;
+}
+
+#main #aside #aside-image #ninja{
+    display: block;
+    width: 40%;
+    margin: -180px auto 0 auto;    
+}
+
+#main #aside #aside-image button{
+    display: block;
+    margin: 15px auto;
+    padding: 5px 45px;
+    position: relative;
+    background-color: #55cbde;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#main #content{
+    display:inline-block;
+    vertical-align: top;
+    width: 710px;
+    padding: 0px 15px;
+}
