@@ -37,7 +37,8 @@
     margin-bottom: 0;
     margin-top: -20px;
     padding: 10px 30px;
-    background-color:#5082ac;
+    /* background-color:#5082ac; */
+    background: linear-gradient(#2a6aa0, #6491b6, #2c6ba1);
     color: #e8eff4;
     font-size: 30px;
 }
@@ -84,8 +85,9 @@
     width: 180px;
     border-radius: 3px;
     color:#fff;
-    border-color: #a5a09b;
     box-shadow: 2px 2px 2px #a5a09b;
+    border-style: none;
+
 }
 
 #main #aside #aside-content #button-1{
@@ -134,6 +136,7 @@
     background-color: #55cbde;
     color: #fff;
     border-radius: 3px;
+    border-style: none;
 }
 
 #main #content{
