@@ -100,7 +100,7 @@
 
 #main-content #navBar li{
     display: inline-block;
-    margin: 6px 15px;
+    margin: 6px 10px;
     color: #fff;
     font-size: 20px;
     font-weight: lighter;
@@ -135,6 +135,7 @@
 #main-content #content #aside ul li a{
     color: #dfe5ec;
     font-weight: 100;
+    padding-left: 5px;;
 }
 
 #main-content #content #content-main-content{
@@ -225,3 +226,31 @@
     color: #84b1da;
 }
 
+#container3{
+    width: 970px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #245076;
+    padding: 30px 15px 0px 15px;
+}
+
+#container3 ul{
+    padding-left: 0;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+}
+
+#container3 ul li{
+    display: inline-block;
+    margin: 0px 15px;
+    color: #689cca;
+    font-weight: 100;
+}
+
+#container3 p{
+    text-align: center;
+    color: #689fce;
+    font-size: 10px;
+    margin: 5px 0;
+}
