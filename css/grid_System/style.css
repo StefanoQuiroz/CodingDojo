@@ -1,46 +1,55 @@
 *{
+    outline: 1px dotted red;
     box-sizing: border-box;
+}
+
+#container{
+    width: 96%;
+    margin: 0 auto;
+}
+
+.row{
+    border: 3px solid blue;
+    padding: 15px;
+}
+
+.col{
+    display:inline-block;
+    vertical-align: top;
+    padding: 10px;
 }
 
 button{
     background-color: purple;
+    font-weight: bold;
 }
 
-.book{
-    font-style: italic;
-}
-
-.col{
-    display: inline-block;
-    vertical-align: top;
-    padding: 20px;
-}
-
-.row{
-    padding: 10px;
-    border-top: 3px solid blue;
-}
-
-@media only screen and (max-width:480px){
+@media only screen and (max-width: 480px){
     .sm-4{
-        width:100%
+        width: 100%;
     }
     .sm-0{
-        display: none;
+        display:none;
     }
 }
 
-@media only screen and (min-width:481px){
+@media only screen and (max-width:1024px) and (min-width:481px){
     .med-2{
-        width:50%;
+        width: 50%;
     }
 }
 
-@media only screen and (min-width:1024px){
+@media only screen and (min-width: 1024px){
     .lg-1{
-        width:25%
+        width: 25%;
     }
     .lg-3{
         width: 75%;
     }
+
 }
+
+
+
+
+
