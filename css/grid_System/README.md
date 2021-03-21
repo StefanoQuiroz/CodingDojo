@@ -1,3 +1,3 @@
 # Grid System
 
-Gri
+Grid-System plotting blocks reponsive.
