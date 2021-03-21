@@ -12,14 +12,12 @@ h1{
 #first{
     background-color: #cccccc;
     padding: 10px;
-    margin: 0;
 }
 
 #second{
     background-color: #ffff9a;
     padding: 10px;
-    margin:0;
-}
+}4
 
 span{
     font-weight: bold;
@@ -43,18 +41,18 @@ span{
 }
 
 /* 481px-1023px */
-@media only screen and (max-width: 1023px) and (min-width:481px){
+@media only screen and (max-width: 1024px) and (min-width:481px){
     #container h1{
         width: 100%;
-        margin-top: 1%;
+        margin-top: 1.5%;
     }
     #container #first{
         width: 100%;
-        margin-top: 2%;
+        margin-top: 1.5%;
     }
     #container #second{
         width: 100%;
-        margin-top: 2%;
+        margin-top: 1.5%;
     }
 }
 
