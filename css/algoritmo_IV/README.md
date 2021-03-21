@@ -1,3 +1,3 @@
 # Algoritmo IV
 
-4 Ejercicios de funciones.
+4 Ejercicios de loops y funciones.
