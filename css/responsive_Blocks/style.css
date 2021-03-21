@@ -2,71 +2,101 @@
     outline: 1px dotted red;
     box-sizing: border-box;
 }
+#container{
+    width: 90%;
+    background-color: grey;
+    margin: 10px auto;
+}
 
-.container{
-    width: 85%;
-    margin: 0 auto;
-    padding: 15px;
+.row{
+    padding: 10px;
 }
 
 .col{
     display: inline-block;
     vertical-align: top;
-    padding: 10px;
-    margin-top: 10px;
 }
 
-#green{
+#header{
+    height: 100px;
     background-color: green;
 }
 
-#blue{
+#sideBar{
     background-color: blue;
+    height: 250px;
 }
 
-#red{
+#main-content{
     background-color: red;
 }
 
-#yellow{
+.sub-contents{
     background-color: yellow;
+    height: 120px;
 }
 
-#violet{
+
+#footer{
     background-color: purple;
+    height: 80px;
 }
 
 @media only screen and (max-width:480px){
+    .sub-contents{
+        margin-top: 2%
+    }
     .sm-3{
-        width:100%;
+        width: 100%
     }
     .sm-0{
-        display:none;
+        display: none;
     }
 }
 
-@media only screen and (max-width: 1023px) and (min-width:481px){
+@media only screen and (max-width: 1024px) and (min-width:481px){
+    .sub-contents{
+        margin: 2% 3%;
+
+    }
+    .sub-contents:nth-child(2){
+        margin-right:0;
+    }
     .med-3{
-        width: 100%;
+        width:100%
     }
     .med-0{
-        display:none;
+        display: none;
     }
     .med-2{
-        width: 50%
+        width: 43%;
     }
 }
 
-@media only screen and (min-width: 1023px){
+@media only screen and (min-width:1024px){
+    #sideBar{
+        margin-right: 2%
+    }
+    #main-content{
+        text-align:center;
+    }
+    .sub-contents{
+        margin-left: 2%;
+        margin-top: 1%;
+    }
+    .sub-contents:first-child{
+        margin-left: 0;
+    }
     .lg-3{
         width: 100%;
-        height: 50px;
     }
     .lg-1{
-        width: 32%;
+        width: 23%;
+        display: inline-block
     }
-    
     .lg-2{
-        width:66.66%;
+        width: 75%
     }
 }
+
+

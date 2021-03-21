@@ -1,3 +1,3 @@
 # Responsive blocks
 
-Plotting Blocks responsive.
+Plotting Blocks responsive Version 2.0
