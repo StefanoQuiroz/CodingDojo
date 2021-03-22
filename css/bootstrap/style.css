@@ -1,0 +1,14 @@
+.container-fluid .navbar-brand img{
+    width: 35%;
+    margin-left: 15px;
+}
+
+#navbarSupportedContent ul li a{
+    color: #4e9dcb;
+    font-weight: bolder;
+}
+
+/* #carouselExampleDark .carousel-inner .carousel-item img{
+    width: 5%;
+} */
+
