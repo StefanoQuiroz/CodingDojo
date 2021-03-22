@@ -13,7 +13,7 @@
     <title>Bootstrap Web Site</title>
 </head>
 <body>
-    <div class="container">
+    <div id="container">
         <!-- Content here -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -55,28 +55,42 @@
             </div>
         </nav>
         <!-- Carousel -->
-        
-    </div>
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./images/image.imgs.full.high (1).png" class="img-fluid rounded mx-auto d-block" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/image.imgs.full.high (2)..png" class="img-fluid rounded mx-auto d-block" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./images/image.imgs.full.high (3).png" class="img-fluid rounded mx-auto d-block" alt="...">
-          </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/image.imgs.full.high (1).png" class="img-fluid rounded mx-auto d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/image.imgs.full.high (2)..png" class="img-fluid rounded mx-auto d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/image.imgs.full.high (3).png" class="img-fluid rounded mx-auto d-block" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+        <!-- Terms and Conditions -->
+        <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Terminos y Condiciones
+                        </button>
+                    </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Campaña Ecosport Financiamiento: Imágenes referenciales. Equipamiento varía según versión. Precio incluye bono de financiamiento con BBVA CF de $1000 o S/. 3600. Precio financiado con BBVA corresponde a Ecosport S 1.5L MT MY2021. Promoción válida del 01 al 31 de marzo de 2021 o hasta agotar stock de 10 unidades. TCR S/.3.60. Al momento de la transacción se aplicará el tipo de cambio vigente del día. TCEA Máxima Referencial (17.03%) calculado con una TEA de 15.99% y a un plazo de 72 meses aplicable a un vehículo con precio de venta de US$ 16,390 (S/ 59,004), monto financiado de US$ 11,473 (S/ 41,302.8), cuota inicial de 30%, equivalente a US$ 4,917 (S/ 17,701.2), cuota mensual de US$ 213.62 (S/ 769.03). Seguro de desgravamen individual de 0.050% mensual. Cuota no incluye seguro vehicular. Aplica para personas naturales. El cliente deberá contratar seguro de desgravamen y seguro vehicular, y podrá hacerlo con la empresa de seguros de su preferencia (sujeto a pago de comisión por revisión de endoso por cada póliza endosada). Sujeto a evaluación crediticia. Cargos que no incluyen: Envío físico de estado de cuenta S/ 10.00 o US$ 3.00. Tasas de interés, comisiones, gastos y penalidades publicados en el Tarifario de la oficina de atención al público de BBVA Consumer Finance Edpyme (Av. República de Panamá N° 3055 – Piso12 – Hall1) y en www.bbvaconsumerfinance.com.pe. Toda referencia en el anuncio a la cuota está sujeto al precio sugerido por Ford Perú a su red de Concesionarios Oficiales. El precio de venta final es determinado por cada Concesionario. El financiamiento puede variar según precio de venta final.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
