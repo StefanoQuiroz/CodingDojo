@@ -10,6 +10,15 @@
     width: 100%
 }
 
+.container-fluid {
+    overflow: hidden;
+    background: #262626;
+    color: #627482 !important;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+
 .container-fluid .navbar-brand img{
     width: 35%;
     margin-left: 15px;
@@ -19,6 +28,5 @@
     color: #4e9dcb;
     font-weight: bolder;
 }
-
 
 
