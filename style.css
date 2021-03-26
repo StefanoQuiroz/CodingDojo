@@ -1,0 +1,145 @@
+*{
+    /* outline: 1px dotted red; */
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 95%;
+    background-color: #eeeeee;
+    margin: 5px auto;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+.up{
+    margin: 0 auto;
+    width: 85%;
+    overflow: hidden;
+    
+}
+#light-blue{
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-left: 0;
+    list-style-type: none;
+    width: 120px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#light-blue li{
+    display: inline-block;
+    border: 1px solid #789be1;
+    width: 50px;
+    margin-left: 4px;
+    margin-top: 5px;
+    background-color:#689bfe;
+    text-align: center;
+    font-size: 12px;
+
+
+}
+
+#light-blue li:first-child{
+    margin-right: 100px;
+}
+
+#light-blue li h1{
+    color:#383fb8;
+    margin: 0;
+}
+
+#pink{
+    padding-left: 0;
+    list-style-type: none;
+    width: 596px;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+#pink li{
+    display: inline-block;
+    font-size: 12px;
+    background-color: #fd9a98;
+    text-align: center;
+    margin-top: 5px;
+    border: 1px solid #789be1;
+    width: 50px;
+}
+#pink li:not(:nth-child(10), :nth-child(20), :nth-last-child(30), :nth-child(40)){
+    margin-right: 4px;
+}
+#pink li:nth-child(11){
+    margin-right: 4px;
+}
+#pink li h1{
+    margin: 0;
+    color:#70439f
+}
+
+#yellow {
+    padding-left: 0;
+    list-style-type: none;
+    overflow: hidden;
+    display: inline-block;
+    width:356px;
+    margin-left: 1px;
+}
+#yellow li{
+    display: inline-block;
+    font-size: 12px;
+    background-color: #fecb00;
+    text-align: center;
+    width: 50px;
+    margin-right: 4px;
+    margin-top: 5px;
+    border: 1px solid #789be1;
+
+}
+#yellow li:first-child{
+    margin-left: 300px;
+    margin-right: 0;
+}
+
+#yellow li h1{
+    margin: 0;
+    color: #5c4877;
+}
+
+.down{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.down .block{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+.down #green{
+    display: inline-block;
+    padding-left: none;
+    list-style-type: none;
+    overflow: hidden;
+    width: 620px;
+    text-align: center;
+}
+
+.down #green li{
+    display: inline-block;
+    font-size: 12px;
+    background-color: #1fca21;
+}
+
+
+
+.down #green h1{
+    margin: 0;
+    color: #1b3380;
+}
+/* ll */
